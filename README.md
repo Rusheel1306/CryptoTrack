@@ -1,29 +1,30 @@
-# CryptoTrack
-CryptoTrack: Real-Time Digital Asset Hub
+📈 StockTrack: Real-Time Equity Intelligence Hub
 📌 Project Overview
-CryptoTrack is a dynamic web application designed to provide users with real-time data on the top 100 cryptocurrencies. This project demonstrates advanced JavaScript techniques, including asynchronous API integration and data manipulation using Higher-Order Functions (HOFs).
+StockTrack is a dynamic React-based web application designed to provide users with real-time data on the world’s leading publicly traded companies. This project demonstrates advanced frontend development techniques, including asynchronous API integration and data manipulation using JavaScript Higher-Order Functions (HOFs).
 
-The goal is to offer a clean, high-performance dashboard where users can monitor market fluctuations, search for specific assets, and sort data based on various financial metrics.
+The goal is to offer a clean, high-performance dashboard where users can monitor market fluctuations, search for specific tickers, and sort stocks based on key financial metrics.
 
 🌐 Public API Integration
-API Provider: CoinGecko API
+API Provider: Finnhub Stock API (or Alpha Vantage)
 
-Endpoint used: /coins/markets
+Endpoint used: /quote and /stock/symbol
 
-Data focus: Real-time price (USD), Market Cap, 24h Change (%), and Trading Volume.
+Data focus: Real-time Price (USD), Daily High/Low, Change Percentage (%), and Market Volume.
 
 ✨ Planned Features
-Live Data Fetching: Dynamic UI updates using the Fetch API and async/await.
+Live Market Fetching: Dynamic UI updates using the Fetch API and React's useEffect hook.
 
-Search Functionality: Real-time filtering of assets by name or ticker symbol using Array.prototype.filter().
+Ticker Search: Real-time filtering of stocks by company name or ticker symbol (e.g., AAPL, TSLA) using Array.prototype.filter().
 
-Advanced Sorting: Options to arrange coins by Market Cap (High to Low), Price, or 24h performance using Array.prototype.sort().
+Advanced Sorting: Options to arrange stocks by Price, Percentage Change, or Volume using Array.prototype.sort().
 
-Responsive UI: A mobile-first, professional design built with Tailwind CSS.
+Responsive UI: A mobile-first, professional dashboard built with Tailwind CSS.
 
-Dark/Light Mode: A theme toggle to enhance user experience (Milestone 3).
+Dark/Light Mode: A theme toggle to enhance user experience and readability (Milestone 3).
 
 🛠️ Tech Stack
-Frontend: HTML5, CSS3 (Tailwind CSS)
+Library: React.js (Vite)
 
-Logic:  React.JS
+Styling: Tailwind CSS
+
+Logic: Vanilla JavaScript (ES6+)
