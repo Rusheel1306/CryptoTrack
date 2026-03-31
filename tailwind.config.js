@@ -6,10 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      // You can add custom colors or fonts here later
       colors: {
-        brand: '#60a5fa', // Example: a nice blue for your CryptoTrack logo
-      },
+        darkBlue: '#0f172a', // Deep slate blue background
+        cardBlue: '#1e293b', // Lighter slate for cards
+      }
     },
   },
   plugins: [],
